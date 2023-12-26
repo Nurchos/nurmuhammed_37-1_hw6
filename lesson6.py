@@ -1,6 +1,8 @@
 from random import sample
 
 
+
+
 def binary_search(target, sorted_list):
     left = 0
     right = len(sorted_list) - 1
