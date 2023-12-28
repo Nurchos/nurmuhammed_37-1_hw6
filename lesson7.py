@@ -107,6 +107,7 @@ quantity INTEGER (8) NOT NULL DEFAULT 0
 )
 '''
 
+
 connection = create_connection(database)  # Cоздание БД
 if connection is not None:
     print('Connected successfully')
